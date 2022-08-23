@@ -7,6 +7,7 @@ public class Title {
         return "Hello World!";
     }
     public String title(String s){
+        oyuiyui
         String first=s.substring(0,1).toUpperCase();
         return first+s.substring(1);
     }

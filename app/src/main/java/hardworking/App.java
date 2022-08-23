@@ -3,12 +3,18 @@
  */
 package hardworking;
 
+import java.util.Random;
+
 public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
+
+
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+       Title ttt=new Title();
+//        System.out.println(app.title("abcd"));
+//        System.out.println(app.upper("abcd"));
+//        System.out.println(app.lower("ABCD"));
+//        System.out.println(app.reverse("abcd"));
+        System.out.println(ttt.spongebob("abCd"));
     }
 }
